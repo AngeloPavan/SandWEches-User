@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.glass-container{
+    gap: 20px;
+    border-radius: 7px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(130, 130, 130, 0.071);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 0px rgba(255,255,255,0.4) solid;
+    border-bottom: 0px rgba(40,40,40,0.35) solid;
+    border-right: 0px rgba(40,40,40,0.35) solid;
+    border-left: 0px rgba(40,40,40,0.35) solid;
+
+}
+
+.margin-top-form{
+    margin-top: 10vh;
+}
