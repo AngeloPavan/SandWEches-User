@@ -1,5 +1,4 @@
 <?php 
-
 function login($data)
     {
         $url = 'http://localhost/SandWEches-user/app/api/API/user/login.php';
@@ -16,26 +15,23 @@ function login($data)
             "Content-Lenght: 0",
         );
 
-        curl_setopt($curl, CURLOPT_HTTPHEADER, $headers); // setta gli headers della request
-
+        curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
 
-        $responseJson = curl_exec($curl);   //eseguo
+        $responseJson = curl_exec($curl);
 
-        curl_close($curl);  //chiudo sessione
+        curl_close($curl);
 
-        $response = json_decode($responseJson);     //decodifico la response dal json
-        var_dump($response); 
-        if ($response->response == true)        //response == true vuol dire sessione senza errori
+        $response = json_decode($responseJson);
+
+        if ($response->response == true)
         {
             $_SESSION['user_id'] = $response->userID;
-            header('Location: pages/homepage.php');
+            header('Location: homepage.php');
         }
         else
         {
             return -1;
         }
-
-        print($data);
     }
 ?>
