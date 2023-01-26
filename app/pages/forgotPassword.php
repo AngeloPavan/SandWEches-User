@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <!-- form di login -->
-        <div class="col-10 col-md-10 col-lg-4 mx-auto margin-top-form">
+        <div class="col-12 col-md-10 col-lg-4 mx-auto margin-top-form">
             <form action="" class="px-2 py-2 form-container" id="glass">
                 <!-- call to action -->
                 <div class="mb-5 text-center">
