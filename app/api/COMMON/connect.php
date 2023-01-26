@@ -1,16 +1,10 @@
 <?php
 class Database
 {
-    //credentials evomatic
-    private $server = "192.168.100.1";
-    private $user = "itis";
-    private $passwd = "itis23K..";
-    private $db = "smart_sandwich_5f";
-
     //credentials localhost
     private $server_local = "localhost";
-    private $user_local = "root";
-    private $passwd_local = "";
+    private $user_local = "app_admin";
+    private $passwd_local = "admin";
     private $db_local = "sandwiches";
 
     //common credentials
