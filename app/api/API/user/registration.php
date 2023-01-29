@@ -1,6 +1,7 @@
 <?php
-require __DIR__ . '/../../COMMON/connect.php';
-require __DIR__ . '/../../MODEL/user.php';
+require("../../COMMON/connect.php");
+require("../../MODEL/user.php");
+
 header("Content-type: application/json; charset=UTF-8");
 
 $data = json_decode(file_get_contents("php://input"));
@@ -15,7 +16,7 @@ $db = new Database();
 $db_conn = $db->connect();
 $user = new User($db_conn);
 $hash = $data->password; 
-$password = password_hash($hash, PASSWORD_BCRYPT);
+$password = hash("sha256", $hash);
 
 if ($user->registration($data->name, $data->surname, $data->email, $password) == true) {
     echo json_encode(["message" => "1"]);
