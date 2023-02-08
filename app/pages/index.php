@@ -49,8 +49,8 @@
 
 				include_once dirname(__FILE__) . '/../functions/login.php';
 
-				// $inputs = "";
-				// $errors = "";
+				$inputs = "";
+				$errors = "";
 
 				if($_SERVER['REQUEST_METHOD'] == 'POST'){
 					if (!empty($_POST['email']) && !empty($_POST['password']))

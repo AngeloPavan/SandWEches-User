@@ -33,7 +33,7 @@
 				<div class="mb-3">
 					<label for="inputEmail" class="form-label">Indirizzo Email</label>
 					<input type="text" class="form-control" id="inputEmail" placeholder="mario.rossi@gmail.com" name="email" required>
-					<div id="emailHelp" class="form-text">Tranquillo, non venderemo i tuoi dati a nessuno.</div>
+					<div id="emailHelp" class="form-text">Tranquillo, non venderemo i tuoi dati.</div>
 				</div>
 				<!-- campo password -->
 				<div class="mb-5">

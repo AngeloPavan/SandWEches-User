@@ -25,7 +25,7 @@ function createAccount($data)
 
         $response = json_decode($responseJson);
         
-        if ($response->message == "1")
+        if($response->message == "1")
         {
             header('Location: index.php');
         }

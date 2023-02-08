@@ -8,7 +8,7 @@ $data = json_decode(file_get_contents("php://input"));
 
 if (empty($data->email) || empty($data->password)) {
     http_response_code(400);
-    echo json_encode(["message" => "Fill every field"]);
+    echo json_encode(["message" => "Riempi ogni campo"]);
     die();
 }
 
@@ -17,7 +17,7 @@ $db_conn = $db->connect();
 $user = new User($db_conn);
 
 $hash = $data->password;  
-$password = password_hash($hash, PASSWORD_BCRYPT);
+$password = hash("sha256", $hash);
 
 $result = $user->login($data->email, $password);
 
