@@ -34,8 +34,8 @@
 						<a href="forgotPassword.php" class="">Password dimenticata?</a>
 					</div>
 				</div>
-				<!-- tasto per accedere -->
 				<div class="text-center">
+					<!-- tasto per accedere -->
 					<button type="submit" class="btn btn-warning px-5 fs-5 fw-bold">Accedi</button>
 					<!-- tasto password dimenticata -->
 					<div class="mt-3">

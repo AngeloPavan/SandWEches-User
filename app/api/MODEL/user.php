@@ -140,7 +140,7 @@ class User extends BaseController
         $result = $this->conn->query($sql);
         while ($row = $result->fetch_assoc()) {
             if ($this->conn->real_escape_string($email) == $this->conn->real_escape_string($row["email"])) {
-                if(password_verify($this->conn->real_escape_string($row["password"]), $this->conn->real_escape_string($password))){
+                if(($this->conn->real_escape_string($row["password"]) == $this->conn->real_escape_string($password))){
                     return $this->conn->real_escape_string($row["id"]);
                 }
             }
