@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <?php require_once(__DIR__.'\components\head.php'); ?>
+<?php require_once(__DIR__.'\components\head.php'); ?>
 
-    <title>SandWEches</title>
+<title>SandWEches</title>
 </head>
 
 <body>
