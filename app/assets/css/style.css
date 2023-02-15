@@ -5,6 +5,17 @@ a.navbar-brand{
     font-weight: bold;
 }
 
+a.nav-link{
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+a.nav-link:hover, .btn-warning{
+    background-color: #FF9B18;
+}
+
+
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
