@@ -2,7 +2,6 @@
 function createAccount($data)
     {
         $url = 'http://localhost/SandWEches-user/app/api/API/user/registration.php';
-
         $curl = curl_init($url);    //inizializza una nuova sessione di cUrl
                                     //Curl contiene il return del curl_init 
 

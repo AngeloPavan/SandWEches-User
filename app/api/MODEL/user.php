@@ -5,7 +5,7 @@ use PHPOffice\PHPOffice\PHPSpreadsheet;
 use PHPMailer\PHPMailer\Exception;
 
 require __DIR__ . "/base.php";
-require __DIR__ . " /../COMMON/errorHandler.php";
+require __DIR__ . "/../COMMON/errorHandler.php";
 require __DIR__ . "/../vendor/phpmailer/phpmailer/src/PHPMailer.php";
 require __DIR__ . "/../vendor/phpmailer/phpmailer/src/Exception.php";
 require __DIR__ . "/../vendor/phpmailer/phpmailer/src/SMTP.php";

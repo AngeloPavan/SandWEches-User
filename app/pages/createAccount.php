@@ -11,7 +11,7 @@
 	<div class="container">
 		<!-- form di login -->
 		<div class="col-12 col-md-10 col-lg-6 mx-auto margin-top-form">
-			<form action="" class="px-2 py-2 form-container" id="glass" method="post">
+			<form action="" class="px-2 py-2 form-container" method="post">
 				<!-- call to action -->
 				<div class="mb-5 text-center">
 					<img src="..\assets\img\logo.png" alt="logoSandwech">
@@ -21,13 +21,13 @@
 				</div>
 				<!-- campo nome -->
 				<div class="mb-3">
-					<label for="inputEmail" class="form-label">Nome</label>
-					<input type="text" class="form-control" id="inputEmail" placeholder="Mario" name="name" required>
+					<label for="inputName" class="form-label">Nome</label>
+					<input type="text" class="form-control" id="inputName" placeholder="Mario" name="name" required>
 				</div>
 				<!-- campo cognome -->
 				<div class="mb-3">
-					<label for="inputEmail" class="form-label">Cognome</label>
-					<input type="text" class="form-control" id="inputEmail" placeholder="Rossi" name="surname" required>
+					<label for="inputSurname" class="form-label">Cognome</label>
+					<input type="text" class="form-control" id="inputSurname" placeholder="Rossi" name="surname" required>
 				</div>
 				<!-- campo email -->
 				<div class="mb-3">
@@ -41,12 +41,12 @@
 					<input type="password" class="form-control" id="inputPassword" name="password" required>
 					<div id="emailHelp" class="form-text">Non condividerla con nessuno.</div>
 				</div>
-				<!-- tasto per accedere -->
+				<!-- tasto per creare l'account -->
 				<div class="text-center">
 					<button type="submit" class="btn btn-warning px-5 fs-5 fw-bold">Crea</button>
-					<!-- tasto password dimenticata -->
+					<!-- tasto per accedere -->
 					<div class="mt-3">
-						<a rolee="button" class="btn btn-success px-5 fs-5 fw-bold" href="index.php">Accedi</a>
+						<a role="button" class="btn btn-success px-5 fs-5 fw-bold" href="index.php">Accedi</a>
 					</div>
 				</div>
 
@@ -74,12 +74,12 @@
 							echo('</div>');
 						}
 					}
-					else
-					{
-						echo('<div class="text-center mt-3">');
-						echo('<h5 class="text-danger fw-bold">Inserisci i dati</h5>');
-						echo('</div>');
-					}
+					// else
+					// {
+					// 	echo('<div class="text-center mt-3">');
+					// 	echo('<h5 class="text-danger fw-bold">Inserisci i dati</h5>');
+					// 	echo('</div>');
+					// }
 				}
 				?>
 			</form>

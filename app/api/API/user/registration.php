@@ -1,6 +1,8 @@
 <?php
-require("../../COMMON/connect.php");
-require("../../MODEL/user.php");
+// require("../../COMMON/connect.php");
+// require("../../MODEL/user.php");
+require __DIR__ . '/../../COMMON/connect.php';
+require __DIR__ . '/../../MODEL/user.php';
 
 header("Content-type: application/json; charset=UTF-8");
 
