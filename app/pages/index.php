@@ -17,7 +17,7 @@
 					<img src="..\assets\img\logo.png" alt="logoSandwech">
 				</div>
 				<div class="mb-5">
-					<h1 class="text-center fw-bold">Benvenuto in SandWEch!</h1>
+					<h1 class="text-center fw-bold">Benvenuto in SandWEches!</h1>
 				</div>
 				<!-- campo email -->
 				<div class="mb-3">
