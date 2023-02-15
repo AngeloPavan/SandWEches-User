@@ -14,27 +14,34 @@
                     <a class="nav-link active" aria-current="page" href="homepage.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">Tutti i prodotti</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Dropdown
+                        Categorie
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li>
+                    <ul class="dropdown-menu"\>
+                        <li><a class="dropdown-item" href="#">Panini</a></li>
+                        <li><a class="dropdown-item" href="#">Snack</a></li>
+                        <li><a class="dropdown-item" href="#">Piadine</a></li>
+                        <li><a class="dropdown-item" href="#">Bibite</a></li>
+                        <!-- <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profilo</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Cerca qualcosa..." aria-label="Search">
                 <button class="btn btn-warning me-2" type="submit">Cerca</button>
             </form>
-            <button class="btn btn-danger me-2" type="submit">Esci</button>
+            <!-- <button class="btn btn-danger me-2" type="submit">Esci</button> -->
+            <a href="..\functions\logout.php" class="btn btn-danger me-2" role="button">Esci</a>
         </div>
     </div>
 </nav>

@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
 
+a.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav.navbar{
-   /* background-color: #FF9B18 !important;  */
-   border-bottom: 1px solid lightgray;
-   font-size: 17px;
-   padding: 15px 0px 15px 0px;
-}
-
-a.navbar-brand{
-    font-size: 25px;
-    font-weight: bold;
+    /* background-color: #FF9B18 !important;  */
+    border-bottom: 1px solid lightgray;
+    font-size: 17px;
+    padding: 15px 0px 15px 0px;
 }
 
 /* schermi piccoli */
@@ -25,12 +25,17 @@ a.navbar-brand{
 
 /* schermi grandi */
 @media only screen and (min-width: 768px) {
-    .form-container{
-        border-radius: 7px;
-        border: 2px rgb(243, 243, 243) solid;
+    a.navbar-brand{
+        border-right: 1px solid lightgray;
+        padding-right: 20px;
     }
-
+    
     .margin-top-form{
         margin-top: 8vh;
+    }
+
+    .form-container{
+        border: 2px rgb(243, 243, 243) solid;
+        border-radius: 7px;
     }
 }
