@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+if (empty($_SESSION['user_id'])) {
+    header('location: index.php');
+}
+
+$page = 'home';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

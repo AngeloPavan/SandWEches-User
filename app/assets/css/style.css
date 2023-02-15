@@ -6,18 +6,21 @@ a.navbar-brand{
 }
 
 a.nav-link{
-    border-radius: 10px;
     margin-right: 5px;
 }
 
-a.nav-link:hover, .btn-warning{
+a.nav-link, .btn{
+    border-radius: 7px;
+}
+
+a.nav-link:hover, a.nav-link.active, .btn-warning{
     background-color: #FF9B18;
 }
 
-
-
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    /* height: 100vh; */
+    max-height: 100vh;
 }
 
 nav.navbar{
@@ -40,7 +43,7 @@ nav.navbar{
         border-right: 1px solid lightgray;
         padding-right: 20px;
     }
-    
+
     .margin-top-form{
         margin-top: 8vh;
     }
