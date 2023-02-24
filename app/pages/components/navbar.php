@@ -14,7 +14,7 @@
                     <a class="nav-link <?php if($page=="home"){echo 'active';}?>" aria-current="page" href="homepage.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tutti i prodotti</a>
+                    <a class="nav-link <?php if($page=="catalog"){echo 'active';}?>" href="catalog.php">Tutti i prodotti</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
