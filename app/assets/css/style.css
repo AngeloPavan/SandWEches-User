@@ -13,8 +13,9 @@ a.nav-link, .btn{
     border-radius: 7px;
 }
 
-a.nav-link:hover, a.nav-link.active, .btn-warning{
+a.nav-link:hover, a.nav-link.active, a.dropdown-item:hover, .btn-warning{
     background-color: #FF9B18;
+    color: white !important;
 }
 
 body{
@@ -23,11 +24,57 @@ body{
     max-height: 100vh;
 }
 
+.cart-column{
+    border-right: 1px solid lightgray;
+}
+
+.cart-column-title{
+    background-color: #FF9B18;
+    color: white !important;
+}
+
 nav.navbar{
     /* background-color: #FF9B18 !important;  */
     border-bottom: 1px solid lightgray;
     font-size: 17px;
     padding: 15px 0px 15px 0px;
+}
+
+.home-item{
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 0px 100px 0px;
+}
+
+.home-item.bibita{
+    background: url(../img/lattine.jpg);
+}
+
+.home-item.panino{
+    background: url(../img/panini.jpg);
+}
+
+.home-item.snack{
+    background: url(../img/snacks.jpg);
+}
+
+.home-item.piadina{
+    background: url(../img/piadina.jpg);
+}
+
+.home-item-row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.home-item>h1{
+    background-color: rgba(0, 0, 0, 0.600);
+    font-size: 75px;
+    font-weight: bold;
 }
 
 /* schermi piccoli */
