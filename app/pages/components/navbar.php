@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="homepage.php">
             <img src="../assets/img/logo.png" alt="Logo" width="auto" height="40" class="me-2">
             SandWEches
         </a>

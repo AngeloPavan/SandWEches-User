@@ -22,7 +22,7 @@ $page = 'home';
 
     <div class="container-fluid">
         <div class="row home-item-row">
-            <div class="col-7 home-item panino">
+            <div class="col-7 home-item panino" onclick="location.href='profile.php';">
                 <h1 class="text-center">PANINI</h1>
             </div>
             <div class="col-4 home-item snack">

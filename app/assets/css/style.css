@@ -48,6 +48,13 @@ nav.navbar{
     margin-left: auto;
     margin-right: auto;
     padding: 100px 0px 100px 0px;
+    transition: all .2s ease-in-out;
+}
+
+.home-item:hover{
+    cursor: pointer;
+    color: #FF9B18;
+    transform: scale(1.05);
 }
 
 .home-item.bibita{
@@ -77,8 +84,21 @@ nav.navbar{
     font-weight: bold;
 }
 
+.vh-915{
+    height: 91.5vh;
+}
+
 /* schermi piccoli */
 @media only screen and (max-width: 768px) {
+    .catalog-card{
+        width: 95vw;
+    }
+
+    /* non funziona */
+    .catalog-card-pill-container{
+        background: rgba(255, 255, 255, 0) !important;
+    }
+
     .margin-top-form{
         margin-top: 3vh;
     }
@@ -89,6 +109,10 @@ nav.navbar{
     a.navbar-brand{
         border-right: 1px solid lightgray;
         padding-right: 20px;
+    }
+
+    .catalog-card{
+        width: 18rem;
     }
 
     .margin-top-form{
